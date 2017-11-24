@@ -87,6 +87,9 @@ variable "parameter_group" {
 variable "alarm_cpu_threshold" {
   default = "75"
 }
+variable "alarm_cpu_threshold" {
+  monitoring_interval = "0"
+}
 
 variable "alarm_disk_queue_threshold" {
   default = "10"
